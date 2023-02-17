@@ -1,0 +1,59 @@
+.banner_sobre {
+    background-image: url('../../assets/banner-sobre.png');
+    width: 100vw;
+    min-height: 50vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text_banner_sobre {
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+    position: relative;
+    text-shadow: 4px 4px 2px black;
+    top: 4rem;
+    left: 0rem;
+}
+
+/* SOBRE NÓS */
+
+.sobre_nos {
+    margin: 8vw;
+    align-items: center;
+    text-align: center;
+}
+
+.sobre_nos > p {
+    margin: 1vw;
+}
+
+/* imagens */
+
+.imagens_sobre {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.img_sobre {
+    border-radius: 0;
+}
+
+@media (min-width: 436px) and (max-width: 700px) {
+    .img_sobre {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 700px) {
+    .imagens_sobre {
+        flex-direction: row;
+    }
+    .img_sobre {
+        width: 50%;
+        height: 45vh;
+    }
+}

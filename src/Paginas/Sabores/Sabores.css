@@ -1,0 +1,81 @@
+.sabores {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+}
+
+
+.banner_text {
+    width: 100vw;
+    min-height: 50vh;
+    background-image: url('../../assets/banner-sabores.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text_sabores {
+    color: white;
+    font-size: xx-large;
+    font-weight: 900;
+    position: relative;
+    text-shadow: 4px 4px 2px black;
+    top: 4rem;
+    left: 0rem;
+}
+
+/* sabores de sorvete */
+
+.sabores_sorvet {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4vw 4vw;
+    max-width: 100vw;
+}
+
+.img_sabores{
+    max-height: 83px;
+    max-width: 50%;
+    margin: 1vw;
+}
+
+.sabores_sorvet > ul {
+    justify-content: center;
+    text-align: center;
+    margin: 2vw;
+}
+
+.sabores_sorvet > ul > li {
+    box-shadow: 1px 1px 2px gray;
+    border-radius: 5px;
+    margin: 3vw;
+}
+
+.sabores_sorvet > ul > li > p {
+    margin: 4vw;
+}
+
+@media (min-width: 768px) {
+    .text_sabores {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .sabores_sorvet {
+        margin: 4vw 10vw;
+    }
+
+    .sabores_sorvet > ul {
+        display: flex;
+        flex-flow: wrap; 
+    }
+    .sabores_sorvet > ul > li{
+        width: 25%; 
+        margin: 2vw;
+    }
+
+    .sabores_sorvet > ul > li > p {
+        margin: 2vw;
+    }
+}
